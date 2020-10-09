@@ -5,7 +5,7 @@ The ESLint config for @atomikui/core
 ### Installation
 
 ```shell
-# with yarn
+# with npm
 npm install --save-dev @atomikui/eslint-config-atomikui
 
 # with yarn

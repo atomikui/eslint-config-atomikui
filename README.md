@@ -12,11 +12,9 @@ npm install --save-dev @atomikui/eslint-config-atomikui
 yarn add --dev @atomikui/eslint-config-atomikui
 ```
 
-### Adding to your project
+### Add to your project's .eslintrc file
 
 ```json
-// .eslintrc
-
 {
   "parser": "babel-eslint",
   "extends": ["atomikui"]

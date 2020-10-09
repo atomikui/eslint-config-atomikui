@@ -4,12 +4,11 @@ The ESLint config for @atomikui/core
 
 ### Installation
 
-```
-with yarn
+```shell
+# with yarn
 npm install --save-dev @atomikui/eslint-config-atomikui
 
-
-// with yarn
+# with yarn
 yarn add --dev @atomikui/eslint-config-atomikui
 ```
 

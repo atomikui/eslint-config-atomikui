@@ -1,5 +1,15 @@
 <br />
 
+### [v0.1.1](https://github.com/atomikui/eslint-config-atomikui/compare/v0.1.0...v0.1.1) - 2020-10-10
+
+#### Commits
+
+- Updates dependencies and peerDependencies [`0664ca5`](https://github.com/atomikui/eslint-config-atomikui/commit/0664ca5aaa2532bd27c3ba55a2f210337768cf6b)
+- Updates CHANGELOG.md [`4a28b5f`](https://github.com/atomikui/eslint-config-atomikui/commit/4a28b5fe30f04a0d9d9b43a50e2b0c0e4a381063)
+- Create .npmignore [`44f641d`](https://github.com/atomikui/eslint-config-atomikui/commit/44f641d9d1bac27f359eade8edd78215e94a0b24)
+
+<hr />
+
 ### v0.1.0 - 2020-10-10
 
 #### Commits

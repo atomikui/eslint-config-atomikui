@@ -1,23 +1,38 @@
 {
   "name": "eslint-config-atomikui",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "The ESLint config for @atomikui/core",
+  "author": "Alan Eicker <alaneicker@gmail.com> (http://www.alaneicker.com)",
+  "keywords": [
+    "ESLint"
+  ],
   "main": "index.js",
+  "engines": {
+    "node": ">=12.16.2",
+    "npm": ">=6.14.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release:major": "npm version major -m \"Upgrade to %s\" && yarn changelog && yarn push-release",
+    "release:minor": "npm version minor -m \"Upgrade to %s\" && yarn changelog && yarn push-release",
+    "release:patch": "npm version patch -m \"Upgrade to %s\" && yarn changelog && yarn push-release",
+    "changelog": "auto-changelog --output CHANGELOG.md --template changelog.hbs && yarn changelog:commit",
+    "changelog:commit": "git commit -m \"Updates CHANGELOG.md\" CHANGELOG.md",
+    "push-release": "git push origin master"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atomikui/eslint-config-atomikui.git"
+    "url": "https://github.com/atomikui/eslint-config-atomikui.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/atomikui/eslint-config-atomikui/issues"
   },
   "homepage": "https://github.com/atomikui/eslint-config-atomikui#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "devDependencies": {
+    "auto-changelog": "^2.2.1",
     "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.12.0",

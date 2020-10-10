@@ -18,6 +18,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
+
   plugins: ["react"],
   rules: {
     "arrow-body-style": ["error", "always"],
@@ -26,7 +27,8 @@ module.exports = {
       "warn",
       {
         ignoreComments: true,
-        code: 100,
+        code: 85,
+        comments: 85,
       },
     ],
     "no-unused-vars": OFF,

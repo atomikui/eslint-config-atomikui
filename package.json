@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-atomikui",
+  "name": "@atomikui/eslint-config-atomikui",
   "version": "0.0.0",
   "description": "The ESLint config for @atomikui/core",
   "author": "Alan Eicker <alaneicker@gmail.com> (http://www.alaneicker.com)",

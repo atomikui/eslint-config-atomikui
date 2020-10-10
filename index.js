@@ -39,7 +39,6 @@ module.exports = {
         comments: 85,
       },
     ],
-    "no-unused-vars": OFF,
     "object-curly-newline": OFF,
     "object-property-newline": ERROR,
   },

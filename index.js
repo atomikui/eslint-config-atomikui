@@ -6,7 +6,15 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ["airbnb-base", "prettier/react"],
+  extends: [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react",
+  ],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -19,7 +27,7 @@ module.exports = {
     sourceType: "module",
   },
 
-  plugins: ["react"],
+  plugins: ["react-hooks"],
   rules: {
     "arrow-body-style": ["error", "always"],
     "implicit-arrow-linebreak": OFF,

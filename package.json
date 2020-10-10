@@ -31,12 +31,22 @@
     "access": "public"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "eslint-plugin-import": ">=2.22.1",
+    "eslint-plugin-jsx": ">=0.1.0",
+    "eslint-plugin-prettier": ">=3.1.4",
+    "eslint-plugin-react": ">=7.21.4",
+    "eslint-plugin-react-hooks": ">=4.1.2"
+  },
   "dependencies": {
     "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "prettier": "^2.1.2"
   },
   "devDependencies": {

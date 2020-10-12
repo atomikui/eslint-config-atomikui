@@ -1,5 +1,15 @@
 <br />
 
+### [v0.1.4](https://github.com/atomikui/eslint-config-atomikui/compare/v0.1.3...v0.1.4) - 2020-10-12
+
+#### Commits
+
+- Updates CHANGELOG.md [`b355224`](https://github.com/atomikui/eslint-config-atomikui/commit/b355224e036d93665c8bffb919bf930b8bb400fd)
+- Upgrade to 0.1.4 [`10d7678`](https://github.com/atomikui/eslint-config-atomikui/commit/10d76787ce669ad6c9b17bf4de5cc786a5ad8c49)
+- Adds react/jsx-props-no-spreading and react/button-has-type rules [`ae9ee87`](https://github.com/atomikui/eslint-config-atomikui/commit/ae9ee8725fce8fa34f9993d8b100aa24905c6b8b)
+
+<hr />
+
 ### [v0.1.3](https://github.com/atomikui/eslint-config-atomikui/compare/v0.1.2...v0.1.3) - 2020-10-11
 
 #### Commits

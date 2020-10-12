@@ -41,5 +41,7 @@ module.exports = {
     ],
     "object-curly-newline": OFF,
     "object-property-newline": ERROR,
+    "react/jsx-props-no-spreading": OFF,
+    "react/button-has-type": OFF,
   },
 };

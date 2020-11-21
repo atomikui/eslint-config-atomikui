@@ -1,5 +1,15 @@
 <br />
 
+### [v0.2.0](https://github.com/atomikui/eslint-config-atomikui/compare/v0.1.4...v0.2.0) - 2020-11-21
+
+#### Commits
+
+- Updates CHANGELOG.md [`032ef64`](https://github.com/atomikui/eslint-config-atomikui/commit/032ef64b8e6396431ec93151a6e4d4e38c29b796)
+- Adds eslint-plugin-react-perf [`4690de7`](https://github.com/atomikui/eslint-config-atomikui/commit/4690de74e87f90c2cbb21a299c563cd3db253731)
+- Upgrade to 0.2.0 [`6508424`](https://github.com/atomikui/eslint-config-atomikui/commit/6508424eee31a41f0d3db59ee93e19af9868dcf2)
+
+<hr />
+
 ### [v0.1.4](https://github.com/atomikui/eslint-config-atomikui/compare/v0.1.3...v0.1.4) - 2020-10-12
 
 #### Commits

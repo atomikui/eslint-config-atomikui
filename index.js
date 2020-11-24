@@ -13,6 +13,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react-perf/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:sonarjs/recommended",
     "plugin:prettier/recommended",
     "prettier/react",
   ],

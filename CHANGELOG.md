@@ -1,5 +1,15 @@
 <br />
 
+### [v0.3.0](https://github.com/atomikui/eslint-config-atomikui/compare/v0.2.0...v0.3.0) - 2020-11-24
+
+#### Commits
+
+- adds eslint-plugin-sonarjs [`ab3cd12`](https://github.com/atomikui/eslint-config-atomikui/commit/ab3cd12ca6947e77a7c91c1ecc3fa052053b688b)
+- Updates CHANGELOG.md [`69c681c`](https://github.com/atomikui/eslint-config-atomikui/commit/69c681c5ec74e104c6c300ba663db7109c28c8c0)
+- Upgrade to 0.3.0 [`3eddd1e`](https://github.com/atomikui/eslint-config-atomikui/commit/3eddd1ee54e7438b89b077f7ed2b49c0871c92bb)
+
+<hr />
+
 ### [v0.2.0](https://github.com/atomikui/eslint-config-atomikui/compare/v0.1.4...v0.2.0) - 2020-11-21
 
 #### Commits

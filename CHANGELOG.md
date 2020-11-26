@@ -1,5 +1,15 @@
 <br />
 
+### [v0.3.2](https://github.com/atomikui/eslint-config-atomikui/compare/v0.3.1...v0.3.2) - 2020-11-26
+
+#### Commits
+
+- Updates CHANGELOG.md [`3368998`](https://github.com/atomikui/eslint-config-atomikui/commit/33689983903adf3a97cb96408553dc22300bc99c)
+- Upgrade to 0.3.2 [`d4969aa`](https://github.com/atomikui/eslint-config-atomikui/commit/d4969aa15612723507f1e72916f6659b4b3e3dae)
+- Updates rules [`c529b2d`](https://github.com/atomikui/eslint-config-atomikui/commit/c529b2d31878aedccc836f7c76cad23bc99244a1)
+
+<hr />
+
 ### [v0.3.1](https://github.com/atomikui/eslint-config-atomikui/compare/v0.3.0...v0.3.1) - 2020-11-24
 
 #### Commits

@@ -41,7 +41,7 @@ module.exports = {
     "sonarjs",
   ],
   rules: {
-    "arrow-body-style": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
     "implicit-arrow-linebreak": OFF,
     "max-len": [
       "warn",
@@ -55,5 +55,7 @@ module.exports = {
     "object-property-newline": ERROR,
     "react/jsx-props-no-spreading": OFF,
     "react/button-has-type": OFF,
+    "react-perf/jsx-no-new-object-as-prop": OFF,
+    "react-perf/jsx-no-new-function-as-prop": OFF,
   },
 };
